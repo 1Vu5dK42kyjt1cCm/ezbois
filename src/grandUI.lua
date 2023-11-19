@@ -40,7 +40,7 @@ BaseGui.Parent = GrandGui
 BaseGui.Active = true
 BaseGui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 BaseGui.BorderSizePixel = 0
-BaseGui.Position = UDim2.new(0.218120351, 0, 0.143687814, 0)
+BaseGui.Position = UDim2.new(0.218120337, 0, 0.1436878, 0)
 BaseGui.Selectable = true
 BaseGui.Size = UDim2.new(0.563716888, 0, 0.712025344, 0)
 
@@ -64,6 +64,7 @@ ScrollingFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0, 0, 0.112839453, 0)
 ScrollingFrame.Size = UDim2.new(0.19903937, 0, 0.88716042, 0)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 641.819702)
 
 Basic.Name = "Basic"
 Basic.Parent = ScrollingFrame
@@ -98,7 +99,7 @@ DestroyGui.Name = "DestroyGui"
 DestroyGui.Parent = ScrollingFrame
 DestroyGui.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 DestroyGui.BorderSizePixel = 0
-DestroyGui.Position = UDim2.new(0.127596736, 0, 0.370104164, 0)
+DestroyGui.Position = UDim2.new(0.120999701, 0, 0.929552078, 0)
 DestroyGui.Size = UDim2.new(0.75, 0, 0.0500000007, 0)
 DestroyGui.Font = Enum.Font.SourceSansBold
 DestroyGui.Text = "DestroyGui"
@@ -221,7 +222,7 @@ BasicScroll_2.ScrollBarThickness = 0
 
 -- Scripts:
 
-local function FBND_fake_script() -- DestroyGui.DestroyScript 
+local function CRUIJKB_fake_script() -- DestroyGui.DestroyScript 
 	local script = Instance.new('LocalScript', DestroyGui)
 
 	local GrandGui = script.Parent.Parent.Parent.Parent
@@ -231,8 +232,8 @@ local function FBND_fake_script() -- DestroyGui.DestroyScript
 	end)
 	
 end
-coroutine.wrap(FBND_fake_script)()
-local function UTJIYHD_fake_script() -- Special.RGBScript 
+coroutine.wrap(CRUIJKB_fake_script)()
+local function EHKO_fake_script() -- Special.RGBScript 
 	local script = Instance.new('Script', Special)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -245,8 +246,8 @@ local function UTJIYHD_fake_script() -- Special.RGBScript
 		counter = counter + 0.02
 	end
 end
-coroutine.wrap(UTJIYHD_fake_script)()
-local function UCXFR_fake_script() -- ScrollingFrame.ScrollingScript 
+coroutine.wrap(EHKO_fake_script)()
+local function LLHMUW_fake_script() -- ScrollingFrame.ScrollingScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 
 	local BaseGui = script.Parent.Parent
@@ -275,8 +276,8 @@ local function UCXFR_fake_script() -- ScrollingFrame.ScrollingScript
 	end)
 	
 end
-coroutine.wrap(UCXFR_fake_script)()
-local function NGPBPB_fake_script() -- FrameScript.Animate 
+coroutine.wrap(LLHMUW_fake_script)()
+local function EALIUXW_fake_script() -- FrameScript.Animate 
 	local script = Instance.new('LocalScript', FrameScript)
 
 	local visible = false
@@ -308,8 +309,8 @@ local function NGPBPB_fake_script() -- FrameScript.Animate
 		wait(.5)
 	end
 end
-coroutine.wrap(NGPBPB_fake_script)()
-local function QZKOZOT_fake_script() -- FrameScript.DragScript 
+coroutine.wrap(EALIUXW_fake_script)()
+local function NWUCL_fake_script() -- FrameScript.DragScript 
 	local script = Instance.new('LocalScript', FrameScript)
 
 	local UIS = game:GetService("UserInputService")
@@ -348,8 +349,8 @@ local function QZKOZOT_fake_script() -- FrameScript.DragScript
 		end
 	end)
 end
-coroutine.wrap(QZKOZOT_fake_script)()
-local function YLML_fake_script() -- Tradebypass.LocalScript 
+coroutine.wrap(NWUCL_fake_script)()
+local function HAVWZ_fake_script() -- Tradebypass.LocalScript 
 	local script = Instance.new('LocalScript', Tradebypass)
 
 	-- Script Creator -- fatcatliker -- 1/11
@@ -376,4 +377,4 @@ local function YLML_fake_script() -- Tradebypass.LocalScript
 	
 	
 end
-coroutine.wrap(YLML_fake_script)()
+coroutine.wrap(HAVWZ_fake_script)()
