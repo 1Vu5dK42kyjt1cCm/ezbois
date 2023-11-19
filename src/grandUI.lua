@@ -64,7 +64,6 @@ ScrollingFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0, 0, 0.112839453, 0)
 ScrollingFrame.Size = UDim2.new(0.19903937, 0, 0.88716042, 0)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 641.819702)
 
 Basic.Name = "Basic"
 Basic.Parent = ScrollingFrame
@@ -170,6 +169,7 @@ BasicScroll.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 BasicScroll.BorderSizePixel = 0
 BasicScroll.Position = UDim2.new(0.000403046608, 0, 0.0993983969, 0)
 BasicScroll.Size = UDim2.new(0.998890281, 0, 0.896745741, 0)
+BasicScroll.CanvasPosition = Vector2.new(0, 150)
 BasicScroll.ScrollBarThickness = 0
 
 Tradebypass.Name = "Tradebypass"
@@ -222,7 +222,7 @@ BasicScroll_2.ScrollBarThickness = 0
 
 -- Scripts:
 
-local function CRUIJKB_fake_script() -- DestroyGui.DestroyScript 
+local function HDHBN_fake_script() -- DestroyGui.DestroyScript 
 	local script = Instance.new('LocalScript', DestroyGui)
 
 	local GrandGui = script.Parent.Parent.Parent.Parent
@@ -232,8 +232,8 @@ local function CRUIJKB_fake_script() -- DestroyGui.DestroyScript
 	end)
 	
 end
-coroutine.wrap(CRUIJKB_fake_script)()
-local function EHKO_fake_script() -- Special.RGBScript 
+coroutine.wrap(HDHBN_fake_script)()
+local function JXTMASX_fake_script() -- Special.RGBScript 
 	local script = Instance.new('Script', Special)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -246,8 +246,8 @@ local function EHKO_fake_script() -- Special.RGBScript
 		counter = counter + 0.02
 	end
 end
-coroutine.wrap(EHKO_fake_script)()
-local function LLHMUW_fake_script() -- ScrollingFrame.ScrollingScript 
+coroutine.wrap(JXTMASX_fake_script)()
+local function YOTCO_fake_script() -- ScrollingFrame.ScrollingScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 
 	local BaseGui = script.Parent.Parent
@@ -276,8 +276,8 @@ local function LLHMUW_fake_script() -- ScrollingFrame.ScrollingScript
 	end)
 	
 end
-coroutine.wrap(LLHMUW_fake_script)()
-local function EALIUXW_fake_script() -- FrameScript.Animate 
+coroutine.wrap(YOTCO_fake_script)()
+local function UCWVZ_fake_script() -- FrameScript.Animate 
 	local script = Instance.new('LocalScript', FrameScript)
 
 	local visible = false
@@ -309,8 +309,8 @@ local function EALIUXW_fake_script() -- FrameScript.Animate
 		wait(.5)
 	end
 end
-coroutine.wrap(EALIUXW_fake_script)()
-local function NWUCL_fake_script() -- FrameScript.DragScript 
+coroutine.wrap(UCWVZ_fake_script)()
+local function OACAXSU_fake_script() -- FrameScript.DragScript 
 	local script = Instance.new('LocalScript', FrameScript)
 
 	local UIS = game:GetService("UserInputService")
@@ -349,8 +349,8 @@ local function NWUCL_fake_script() -- FrameScript.DragScript
 		end
 	end)
 end
-coroutine.wrap(NWUCL_fake_script)()
-local function HAVWZ_fake_script() -- Tradebypass.LocalScript 
+coroutine.wrap(OACAXSU_fake_script)()
+local function NQEXT_fake_script() -- Tradebypass.LocalScript 
 	local script = Instance.new('LocalScript', Tradebypass)
 
 	-- Script Creator -- fatcatliker -- 1/11
@@ -377,4 +377,4 @@ local function HAVWZ_fake_script() -- Tradebypass.LocalScript
 	
 	
 end
-coroutine.wrap(HAVWZ_fake_script)()
+coroutine.wrap(NQEXT_fake_script)()
